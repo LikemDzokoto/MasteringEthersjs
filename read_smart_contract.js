@@ -1,7 +1,7 @@
 const { ethers } = require("ethers");
 //get the endpoint for the blockchain nodes 
 //in this case i am using infura as the node provider
-const INFURA_ID = '1ce214ac2166482f95a4288ef60c5413'
+const INFURA_ID = ''
 const provider = new ethers.providers.JsonRpcProvider(`https://mainnet.infura.io/v3/${INFURA_ID}`)
 
 
